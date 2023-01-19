@@ -1,0 +1,11 @@
+#NOTE: We should increment the version and appVersion each time we make changes to the application
+
+apiVersion: v2    #v2 is for Helm 3 and v1 for any previous versions
+name: nginx-chart
+description: My First Helm Chart
+type: application  #either application or library. Application charts are what you deploy on Kubernetes. Library charts are re-usable charts that can be used with other charts.
+version: 0.1.0 #chart version
+appVersion: "1.0.0" #  version number of our application
+maintainers:
+- email: shubham@gmail.com
+  name: practice
